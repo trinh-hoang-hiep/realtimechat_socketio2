@@ -1,0 +1,97 @@
+body {
+    background-color: #d7dfed;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+#wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+h2 {
+    color: black;
+    margin: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#loginForm {
+    min-height: 500px;
+    background-color: #34ebc0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#txtUser {
+    margin: 5px;
+    border: solid 1px grey;
+    text-align: justify;
+}
+
+#left,
+#right {
+    min-height: 500px;
+    float: left;
+    margin-top: 10px;
+}
+
+#left {
+    width: 20%;
+    background-color: #eaf4b7;
+}
+
+#sayHi {
+    float: right;
+    text-align: right;
+}
+
+#right {
+    width: 80%;
+    background-color: #d6f9d9;
+}
+
+.block {
+    width: 100%;
+    clear: both;
+}
+
+#txtMessage,
+#btnMessage {
+    float: left;
+    margin: 5px;
+}
+
+#txtMessage {
+    width: 70%;
+}
+
+#btnMessage {
+    width: 20%;
+}
+
+#title {
+    background: #ccf900;
+    text-align: center;
+    padding: 5px;
+}
+
+.User {
+    color: red;
+    font-weight: bold;
+}
+
+#listMessage {
+    height: 465px;
+    overflow-y: scroll;
+    clear: both;
+}
+
+#listUsersOnline {
+    height: 465px;
+    overflow-x: scroll;
+    clear: both;
+}
